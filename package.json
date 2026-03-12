@@ -1,7 +1,7 @@
 {
   "name": "jquery_hide_show_password",
   "version": "1.0.3",
-  "description": "Easily reveal or hide password field contents via JavaScript or a nifty inner toggle button. Supports touch quite nicely!",
+  "description": "Easily reveal or hide password field contents via JavaScript or a nifty inner toggle button. Supports touch quite nicely!Supports Jquery4",
   "main": "jquery_hide_show_password.js",
   "scripts": {
     "minify": "uglifyjs jquery_hide_show_password.js -o jquery_hide_show_password.min.js",
