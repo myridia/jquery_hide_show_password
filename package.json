@@ -4,7 +4,7 @@
   "description": "Easily reveal or hide password field contents via JavaScript or a nifty inner toggle button. Supports touch quite nicely!",
   "main": "jquery_hide_show_password.js",
   "scripts": {
-    "minify": "uglifyjs hideShowPassword.js -o hideShowPassword.min.js",
+    "minify": "uglifyjs jquery_hide_show_password.js -o jquery_hide_show_password.min.js",
     "update:bower": "cp package.json bower.json"
   },
   "repository": {
