@@ -1,6 +1,7 @@
 # ![jquery_hide_show_password](pages/public/img/icon_192x192.png) jquery_hide_show_password
 
 jQuery 4 compatible "hide/show password" functionality  
+This lightweight jQuery plugin provides a simple and user-friendly way to toggle the visibility of password input fields. Enhance your web forms with a "Show Password" checkbox or icon, allowing users to easily verify their password entry and improve overall usability.  It's easy to implement, customizable, and enhances the user experience by providing clear visual feedback during password entry.
 
 Because life's too short to waste time re-typing passwords.
 
