@@ -38,7 +38,6 @@ jobs:
 
      - name: Install 
        run: |
-        apt-get install tree
         npm install --package-lock-only
         npm ci
         npm pack
