@@ -24,8 +24,17 @@ jobs:
      - name: checkout 
        uses: actions/checkout@v4
        
-     - name: publish 
+     - name: Setup 
+       uses: actions/setup-node@v4
+       with:
+         node-version: '24.x'            # Your node version
+         registry-url: 'https://registry.npmjs.org'
+         always-auth: true  
+
+     - name: Publish 
        run: |
-         npm ci
-         npm publish --provenance --access public
+        npm install --package-lock-only
+        npm ci
+        npm pack
+        npm publish --provenance --access public
   
