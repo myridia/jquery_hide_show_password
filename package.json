@@ -1,0 +1,36 @@
+{
+  "name": "jquery_hide_show_password",
+  "version": "1.0.1",
+  "description": "Easily reveal or hide password field contents via JavaScript or a nifty inner toggle button. Supports touch quite nicely!",
+  "main": "jquery_hide_show_password.js",
+  "scripts": {
+    "minify": "uglifyjs hideShowPassword.js -o hideShowPassword.min.js",
+    "update:bower": "cp package.json bower.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myridia/jquery_hide_show_password"
+  },
+  "keywords": [
+    "form",
+    "forms",
+    "input",
+    "inputs",
+    "password",
+    "visibility",
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "author": "Myridia Company",
+  "license": "GNU 3",
+  "bugs": {
+    "url": "https://github.com/myridia/jquery_hide_show_password/issues"
+  },
+  "homepage": "jquery-hide-show-password.myridia.com",
+  "dependencies": {
+    "jquery": ">=4.0.0"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.4.17"
+  }
+}
