@@ -1,2 +1,15 @@
 node_moduels
 pages
+demo
+.tern-port            
+dist/.tern-port
+*~
+.hg
+.git
+.hgignore
+.gitignore
+dockers
+pages
+vite.config.js
+jsdoc.json
+ask.sh 
