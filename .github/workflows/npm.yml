@@ -1,10 +1,10 @@
 name: Publish Package to npmjs
 on:
-#  release:
-#    types: [published]  
-  push:
-    branches:
-     - "*"
+  release:
+    types: [published]  
+#  push:
+#    branches:
+#     - "*"
 permissions:
   id-token: write  # Required for OIDC
   contents: read
