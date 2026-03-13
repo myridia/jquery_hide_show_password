@@ -5,7 +5,6 @@ on:
   push:
     branches:
      - "*"
-     
 permissions:
   id-token: write  # Required for OIDC
   contents: read
