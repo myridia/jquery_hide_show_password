@@ -1,3 +1,4 @@
+<img src="jquery_hide_show_password.svg" alt="jquery_hide_show_password" width="120">
 # ![jquery_hide_show_password](pages/public/img/icon_192x192.png) jquery_hide_show_password
 
 jQuery 4 compatible "hide/show password" functionality  
